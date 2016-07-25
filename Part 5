@@ -1,0 +1,22 @@
+public class Goat {
+	int GoatAge;
+	public Goat(String name) {
+		System.out.println("The Goat name is: " + name);
+	}
+	public void setAge(int age) {
+		GoatAge = age;
+	}
+	public int getAge() {
+		System.out.println("The age of the Goat: " + GoatAge);
+		return GoatAge;
+	}
+}
+**************************************************
+public class GoatMain {
+
+	public static void main(String[] args) {
+		Goat theGoat = new Goat("Wahaha!");
+		theGoat.setAge(5);
+		theGoat.getAge();
+	}
+}

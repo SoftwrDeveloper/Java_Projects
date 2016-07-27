@@ -1,0 +1,16 @@
+package YouTubes;
+
+public class DataTypes {
+	public static void main(String[] args) {
+		String title = "Java data types";
+		char letter = 'T';
+		float decimal = 45.3f;
+		int number = 63;
+		boolean answer =false;	
+		System.out.println("The Title: " + title);
+		System.out.println("The Initial: " + letter);
+		System.out.println("The Decimal: " + decimal);
+		System.out.println("The Integer: " + number);
+		System.out.println("The Answer: " + answer);
+	}
+}

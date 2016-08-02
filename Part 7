@@ -1,0 +1,51 @@
+1. Local Variables Example:
+
+public class YouTuber {
+
+ public void currentAge() {
+  int myAge;
+  myAge = 30;
+  System.out.println("My current age is: " + myAge + " yrs");
+ }
+
+ public static void main(String[] args) {
+  YouTuber myVariable = new YouTuber();
+  myVariable.currentAge();
+ }
+}
+
+2. Instance variables Example:
+
+public class YouTuber {
+ public String name;
+ private double wage;
+ public YouTuber(String name) {
+  this.name = name;
+  this.wage = wage;
+ }
+ public void getName() {
+  System.out.println("YouTubers Name is: " + name);
+ }
+ public void setWage(double theWage) {
+  wage = theWage;
+ }
+ public void getWage() {
+  System.out.println("His Wage is: " + wage);
+ }
+ public static void main(String[] args) {
+  YouTuber myViewer = new YouTuber("Trump");
+   myViewer.getName();
+   myViewer.setWage(500.40);
+   myViewer.getWage();
+ }
+}
+
+3. Static variables Example:
+
+public class YouTuber {
+ public static double wage;
+ public static void main(String[] args) {
+  wage = 10;
+  System.out.println("The wage is: " + wage);
+ }
+}

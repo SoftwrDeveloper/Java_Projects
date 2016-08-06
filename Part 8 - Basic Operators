@@ -1,0 +1,39 @@
+
+1. Arithmetic Operators Example:
+
+public class ArithmeticDemo {
+	public static void main(String[] args) {	
+		int x = 13;
+		double y = 5.5;
+		System.out.println("The addition: " + (x + y));
+		System.out.println("The subtraction: " + (x - y));
+		System.out.println("The multiplication: " + (x * y));
+		System.out.println("The division: " + (x / y));
+	}
+}
+
+2. Relational Operators Example:
+
+public class RelationalDemo {
+	public static void main(String[] args) {
+		int x = 13;
+		double y = 5.5;
+		System.out.println("Is x greater than y: " + (x > y));
+		System.out.println("Is x less than y: " + (x < y));
+		System.out.println("Is x equal to y: " + (x == y));
+		System.out.println("Is x >= y: " + (x >= y));
+		System.out.println("Is x <= y: " + (x <= y));
+	}
+}
+
+3. Logical operators Example:
+
+public class LogicalDemo {
+	public static void main(String[] args) {
+		boolean x = true;
+		boolean y = false;
+		System.out.println("x && y = "+ (x && y));
+		System.out.println("!(x && y) = "+!(x && y));
+		System.out.println("x || y = "+(x || y));
+	}
+}

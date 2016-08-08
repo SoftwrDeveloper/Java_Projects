@@ -1,0 +1,43 @@
+
+1. The If Statements Example:
+
+public class IfStatementsDemo {
+ public static void main(String[] args) {
+  int i = 1;
+  if( i<5 ) {
+   System.out.println("First Answer..");
+  } else if( i==6 ) {
+   System.out.println("Second Answer..");
+  } else {
+   System.out.println("Non of the above..");
+  }
+ }
+}
+
+2. The Switch Statement Example:
+
+public class SwitchDemo {
+ public static void main(String[] args) {
+  int day = 5;
+  String theDay;
+  switch(day) {
+  case 1: theDay = "Monday";
+  break;
+  case 2: theDay = "Tuesday";
+  break;
+  case 3: theDay = "Wednesday";
+  break;
+  case 4: theDay = "Thursday";
+  break;
+  case 5: theDay = "Friday";
+  break;
+  case 6: theDay = "Saturday";
+  break;
+  case 7: theDay = "Sunday";
+  break;
+  default: theDay = "Invalid day";
+  break;
+  }
+  System.out.println(theDay);
+ }
+}

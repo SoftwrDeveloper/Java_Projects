@@ -1,0 +1,49 @@
+
+1. Find String length:
+
+public class StringExamples {
+ public static void main(String[] args) {
+  String myString = "Here is my string";
+  int itsLength = myString.length();
+  System.out.println(itsLength);
+ }
+}
+
+2. Find Character at specified index:
+
+public class StringExamples {
+ public static void main(String[] args) {
+  String myString = "Here is my string";
+  char myChar = myString.charAt(3);
+  System.out.println(myChar);
+ }
+}
+
+3. A string of characters:
+
+public class StringExamples {
+ public static void main(String[] args) {
+  char[] myString = {'h','i','!','y','t','u','b','e','r','s'};
+  System.out.println(myString);
+ }
+}
+
+3. concatenating:
+
+public class StringExamples {
+ public static void main(String[] args) {  
+  String myString1 = "What was the ";
+  String myString2 = "answer for the question?";
+  System.out.println(myString1 + myString2);
+ }
+}
+
+4. toUpperCase or toLowerCase:
+
+public class StringExamples {
+ public static void main(String[] args) {
+  String myString1 = "What was the ";
+  String myString2 = "answer for the question?";
+  System.out.println(myString1.toUpperCase() + myString2.toUpperCase());
+ }
+}
